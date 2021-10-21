@@ -1,3 +1,4 @@
+// Ainda não resolvido
 public class Main {
 
 	public static Filosofos[] filosofos = new Filosofos[5];
