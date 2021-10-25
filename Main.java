@@ -47,7 +47,7 @@ class Filosofos extends Thread {
       /*
         Este novo synchronized tem o papel de um mutex - uma
         das soluções possíveis pra o problema do jantar dos 
-        filósofos. Entretanto, ele cria o problema de apenas
+        filósofos. Entretanto, esta zona crítica cria o problema de apenas
         um filósofo poder comer por vez. Uma melhor solução seriam
         os semáforos.
       */
